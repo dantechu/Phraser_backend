@@ -1,0 +1,437 @@
+[04-Mar-2023 11:38:40 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[04-Mar-2023 11:38:40 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[04-Mar-2023 11:38:40 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[04-Mar-2023 11:38:40 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[04-Mar-2023 11:38:40 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[05-Mar-2023 20:08:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[05-Mar-2023 20:08:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[05-Mar-2023 20:08:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[01-Apr-2023 23:09:41 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[21-Aug-2023 03:40:07 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[03-Sep-2023 00:17:50 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[03-Sep-2023 01:51:39 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 01:51:39 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 01:51:39 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 04:05:15 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:05:55 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[03-Sep-2023 04:05:55 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[03-Sep-2023 04:05:55 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[03-Sep-2023 04:10:51 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[03-Sep-2023 04:10:51 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[10-Sep-2023 06:36:20 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[10-Sep-2023 06:36:20 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[10-Sep-2023 06:36:20 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[10-Sep-2023 11:49:09 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[16-Sep-2023 10:04:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[16-Sep-2023 10:04:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[16-Sep-2023 10:04:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[16-Sep-2023 10:04:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[16-Sep-2023 10:04:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[16-Sep-2023 10:04:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[21-Sep-2023 22:27:27 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[14-Oct-2023 10:14:53 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[20-Oct-2023 09:31:39 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[20-Oct-2023 09:31:39 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[22-Oct-2023 09:57:09 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[22-Oct-2023 09:57:09 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[22-Oct-2023 09:57:09 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[22-Oct-2023 09:57:25 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[22-Oct-2023 09:57:42 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[22-Oct-2023 09:58:09 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[22-Oct-2023 09:58:09 America/Boise] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/includes/config.php on line 14
+[27-Oct-2023 16:55:01 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[27-Oct-2023 16:55:01 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[27-Oct-2023 16:55:01 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[28-Oct-2023 10:48:22 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[28-Oct-2023 10:48:22 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[28-Oct-2023 10:48:22 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[15-Nov-2023 02:56:47 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[15-Nov-2023 02:56:47 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[15-Nov-2023 02:56:47 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[29-Nov-2023 05:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[29-Nov-2023 05:05:32 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[29-Nov-2023 05:05:32 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[29-Nov-2023 05:05:32 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[29-Nov-2023 05:05:32 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[29-Nov-2023 05:05:32 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[17-Jan-2024 17:30:55 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[17-Jan-2024 17:30:55 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[17-Jan-2024 17:30:55 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[19-Jan-2024 20:54:03 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[19-Jan-2024 21:50:14 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Jan-2024 21:50:14 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[19-Jan-2024 21:50:14 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1203): User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 25
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[06-Feb-2024 22:46:28 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home4/amazingo/public_html/phraser/api/v1/api.php on line 355
+[21-Mar-2024 09:12:57 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Apr-2024 21:32:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Apr-2024 21:32:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[07-Apr-2024 20:27:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[04-May-2024 15:17:51 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[23-May-2024 03:38:02 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Jul-2024 15:08:52 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Jul-2024 15:08:52 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[14-Jul-2024 15:08:52 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[11-Sep-2024 00:00:07 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[26-Sep-2024 02:22:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[26-Sep-2024 02:22:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[15-Dec-2024 14:59:23 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[15-Dec-2024 14:59:23 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[15-Dec-2024 14:59:23 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Jan-2025 15:32:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[06-Jan-2025 15:32:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php:9
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/includes/config.php(9): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(23): require_once('/home4/amazingo...')
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#3 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#4 {main}
+  thrown in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[06-Jan-2025 15:32:10 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php:9
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/includes/config.php(9): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(23): require_once('/home4/amazingo...')
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#3 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#4 {main}
+  thrown in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[06-Jan-2025 15:32:10 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[05-Feb-2025 04:34:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[05-Feb-2025 04:34:55 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[04-Apr-2025 23:55:44 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php:9
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/includes/config.php(9): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(23): require_once('/home4/amazingo...')
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#3 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#4 {main}
+  thrown in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[17-Apr-2025 10:33:23 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Apr-2025 11:09:40 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Apr-2025 11:09:40 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[19-Apr-2025 11:09:40 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[02-May-2025 11:56:30 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[02-May-2025 11:56:30 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php:9
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/includes/config.php(9): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(23): require_once('/home4/amazingo...')
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#3 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#4 {main}
+  thrown in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[14-May-2025 07:56:49 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[05-Jun-2025 21:17:46 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[05-Jun-2025 21:17:46 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php:9
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/includes/config.php(9): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(23): require_once('/home4/amazingo...')
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#3 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#4 {main}
+  thrown in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[08-Jun-2025 06:56:56 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/includes/config.php:9
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/includes/config.php(9): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(23): require_once('/home4/amazingo...')
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#3 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#4 {main}
+  thrown in /home4/amazingo/public_html/phraser/includes/config.php on line 9
+[08-Jun-2025 06:56:56 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
+[24-Jul-2025 12:37:17 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: User amazingo_phraser already has more than 'max_user_connections' active connections in /home4/amazingo/public_html/phraser/api/v1/api.php:24
+Stack trace:
+#0 /home4/amazingo/public_html/phraser/api/v1/api.php(24): mysqli->__construct('localhost', 'amazingo_phrase...', Object(SensitiveParameterValue), 'amazingo_phrase...')
+#1 /home4/amazingo/public_html/phraser/api/v1/api.php(16): API->dbConnect()
+#2 /home4/amazingo/public_html/phraser/api/v1/api.php(466): API->__construct()
+#3 {main}
+  thrown in /home4/amazingo/public_html/phraser/api/v1/api.php on line 24
