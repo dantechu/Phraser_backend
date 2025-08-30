@@ -26,6 +26,7 @@
             'package_name' => clean($_POST['package_name']),
             'fcm_server_key' => clean($_POST['fcm_server_key']),
             'fcm_notification_topic' => clean($_POST['fcm_notification_topic']),
+            'api_key' => !empty($_POST['api_key']) && $_POST['api_key'] !== $settings_row['api_key'] ? encrypt_api_key(clean($_POST['api_key'])) : $settings_row['api_key'],
             'more_apps_url' => clean($_POST['more_apps_url'])
 	    );
 
@@ -134,6 +135,16 @@
                                             <input type="text" class="form-control" name="fcm_server_key" id="fcm_server_key" value="<?php echo $settings_row['fcm_server_key'];?>" required>
                                         </div>
                                         <div class="help-info pull-left"><a href="" data-toggle="modal" data-target="#modal-server-key">How to obtain your FCM Server Key?</a></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <div class="font-12"><b>API Key</b></div>
+                                            <input type="text" class="form-control" name="api_key" id="api_key" value="<?php echo $settings_row['api_key'];?>" placeholder="Enter API key">
+                                        </div>
+                                        <div class="help-info pull-left"><font color="#337ab7">API key will be encrypted with SHA256 when saved</font></div>
                                     </div>
                                 </div>
 

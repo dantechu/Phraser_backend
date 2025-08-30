@@ -67,6 +67,10 @@
         return $key; 
     }
 
+    function encrypt_api_key($key) {
+        return hash('sha256', $key);
+    }
+
     function FCM($uniqueId, $title, $message,  $link, $postId, $fcmServerKey, $fcmNotificationTopic, $redirect) {
 
         $data = array(
