@@ -13,6 +13,10 @@
 	$delete_moods = "DELETE FROM tbl_phraser_moods WHERE phraser_id = '$ID'";
 	$connect->query($delete_moods);
 	
+	// delete region relationships
+	$delete_regions = "DELETE FROM tbl_phraser_regions WHERE phraser_id = '$ID'";
+	$connect->query($delete_regions);
+	
 	// delete data from gallery table
 	$sql_delete = "DELETE FROM tbl_gallery WHERE id = '$ID'";
 	$delete = $connect->query($sql_delete);

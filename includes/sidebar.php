@@ -55,6 +55,13 @@
                         </a>
                     </li>
 
+                    <li class="<?php if (strpos($page, 'regions') !== false) {echo 'active';} else { echo 'noactive'; }?>">
+                        <a href="regions.php">
+                            <i class="material-icons">public</i>
+                            <span><?php echo $menu_regions; ?></span>
+                        </a>
+                    </li>
+
                     <li class="<?php if (strpos($page, 'phraser.php') !== false || strpos($page, 'phraser-') !== false) {echo 'active';} else { echo 'noactive'; }?>">
                         <a href="phraser.php">
                             <i class="material-icons">image</i>

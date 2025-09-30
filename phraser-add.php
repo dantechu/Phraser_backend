@@ -7,7 +7,10 @@
 	$cat_result = $connect->query($cat_qry);
 	
 	$moods_qry = "SELECT * FROM tbl_moods ORDER BY mood_name";
-	$moods_result = $connect->query($moods_qry);    
+	$moods_result = $connect->query($moods_qry);
+	
+	$regions_qry = "SELECT * FROM tbl_regions ORDER BY region_name";
+	$regions_result = $connect->query($regions_qry);    
 	
 	if(isset($_POST['submit'])) {
 
@@ -28,6 +31,17 @@
                     'mood_id' => clean($mood_id)
                 );
                 insert('tbl_phraser_moods', $mood_data);
+            }
+        }
+
+        // Insert region relationships if any regions were selected
+        if (isset($_POST['regions']) && is_array($_POST['regions'])) {
+            foreach ($_POST['regions'] as $region_id) {
+                $region_data = array(
+                    'phraser_id' => $phraser_id,
+                    'region_id' => clean($region_id)
+                );
+                insert('tbl_phraser_regions', $region_data);
             }
         }
 
@@ -138,6 +152,40 @@
                                         }
                                         .bootstrap-select .dropdown-menu li.selected a {
                                             background-color: #f5f5f5 !important;
+                                        }
+                                    </style>
+
+                                    <div class="form-group col-sm-12">
+                                        <div class="font-12">Regions (Optional)</div>
+                                        <div style="position: relative; z-index: 999;">
+                                            <select class="form-control selectpicker" name="regions[]" id="regions" multiple 
+                                                    data-live-search="true" 
+                                                    data-size="5" 
+                                                    data-width="100%" 
+                                                    data-style="btn-default" 
+                                                    data-max-options-text="Maximum reached"
+                                                    title="Choose regions...">
+                                                <?php
+                                                    if (mysqli_num_rows($regions_result) > 0) {
+                                                        while ($region_row = mysqli_fetch_array($regions_result)) {
+                                                ?>
+                                                    <option value="<?php echo $region_row['id']; ?>">
+                                                        <?php echo $region_row['region_name']; ?>
+                                                    </option>
+                                                <?php
+                                                        }
+                                                    } else {
+                                                        echo '<option disabled>No regions available</option>';
+                                                    }
+                                                ?>
+                                            </select>
+                                        </div>
+                                        <small class="text-muted" style="font-size: 11px;">Select multiple regions for this phraser</small>
+                                    </div>
+
+                                    <style>
+                                        .bootstrap-select .dropdown-menu li a {
+                                            padding: 6px 12px 6px 80px;
                                         }
                                     </style>                                                            
 

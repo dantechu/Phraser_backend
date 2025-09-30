@@ -43,6 +43,10 @@
                 $delete_moods = "DELETE FROM tbl_phraser_moods WHERE phraser_id = $nid";
                 mysqli_query($connect, $delete_moods);
                 
+                // Delete region relationships
+                $delete_regions = "DELETE FROM tbl_phraser_regions WHERE phraser_id = $nid";
+                mysqli_query($connect, $delete_regions);
+                
                 // Then delete the phraser
                 $sql_delete = "DELETE FROM tbl_gallery WHERE id = $nid";
                 if (mysqli_query($connect, $sql_delete)) {
@@ -148,6 +152,7 @@
 										<th>Category</th>
 										<th><div align="center">Quote</div></th>
 										<th>Moods</th>
+										<th>Regions</th>
 										<th><center>Action</center></th>
 									</tr>
 								</thead>
@@ -163,6 +168,14 @@
 										WHERE pm.phraser_id = ".$data['id']."
 										ORDER BY m.mood_name";
 									$moods_result = $connect->query($moods_sql);
+									
+									// Get regions for this phraser
+									$regions_sql = "SELECT r.region_name 
+										FROM tbl_phraser_regions pr 
+										JOIN tbl_regions r ON pr.region_id = r.id 
+										WHERE pr.phraser_id = ".$data['id']."
+										ORDER BY r.region_name";
+									$regions_result = $connect->query($regions_sql);
 									?>
 									<tr>
 										<td width="1%">
@@ -182,6 +195,17 @@
 												}
 											} else {
 												echo '<span style="color: #999; font-style: italic;">No moods</span>';
+											}
+											?>
+										</td>
+										<td>
+											<?php 
+											if ($regions_result && mysqli_num_rows($regions_result) > 0) {
+												while ($region = mysqli_fetch_array($regions_result)) {
+													echo '<span style="background-color: #6c757d; color: white; padding: 2px 6px; border-radius: 3px; margin-right: 4px; margin-bottom: 2px; display: inline-block; font-size: 11px;">'.$region['region_name'].'</span>';
+												}
+											} else {
+												echo '<span style="color: #999; font-style: italic;">No regions</span>';
 											}
 											?>
 										</td>

@@ -37,6 +37,21 @@
             }
         }
 
+		// Delete existing region relationships
+		$delete_regions = "DELETE FROM tbl_phraser_regions WHERE phraser_id = '$ID'";
+		$connect->query($delete_regions);
+
+		// Insert new region relationships if any regions were selected
+        if (isset($_POST['regions']) && is_array($_POST['regions'])) {
+            foreach ($_POST['regions'] as $region_id) {
+                $region_data = array(
+                    'phraser_id' => $ID,
+                    'region_id' => clean($region_id)
+                );
+                insert('tbl_phraser_regions', $region_data);
+            }
+        }
+
 		if ($hasil >= 0) { // Changed > to >= to handle cases where no changes were made to the main table
             $_SESSION['msg'] = "Changes Saved...";
             header("Location:phraser-edit.php?id=$ID");
@@ -52,12 +67,23 @@
 	$moods_qry = "SELECT * FROM tbl_moods ORDER BY mood_name";
 	$moods_result = $connect->query($moods_qry);
 	
+	$regions_qry = "SELECT * FROM tbl_regions ORDER BY region_name";
+	$regions_result = $connect->query($regions_qry);
+	
 	// Get current phraser moods
 	$current_moods_qry = "SELECT mood_id FROM tbl_phraser_moods WHERE phraser_id = '$ID'";
 	$current_moods_result = $connect->query($current_moods_qry);
 	$current_moods = array();
 	while ($mood_row = mysqli_fetch_array($current_moods_result)) {
 		$current_moods[] = $mood_row['mood_id'];
+	}
+	
+	// Get current phraser regions
+	$current_regions_qry = "SELECT region_id FROM tbl_phraser_regions WHERE phraser_id = '$ID'";
+	$current_regions_result = $connect->query($current_regions_qry);
+	$current_regions = array();
+	while ($region_row = mysqli_fetch_array($current_regions_result)) {
+		$current_regions[] = $region_row['region_id'];
 	}
 
 ?>
@@ -167,6 +193,41 @@
                                         }
                                         .bootstrap-select .dropdown-menu li.selected a {
                                             background-color: #f5f5f5 !important;
+                                        }
+                                    </style>
+
+                                    <div class="form-group col-sm-12">
+                                        <div class="font-12">Regions (Optional)</div>
+                                        <div style="position: relative; z-index: 999;">
+                                            <select class="form-control selectpicker" name="regions[]" id="regions" multiple 
+                                                    data-live-search="true" 
+                                                    data-size="5" 
+                                                    data-width="100%" 
+                                                    data-style="btn-default" 
+                                                    data-max-options-text="Maximum reached"
+                                                    title="Choose regions...">
+                                                <?php
+                                                    if (mysqli_num_rows($regions_result) > 0) {
+                                                        while ($region_row = mysqli_fetch_array($regions_result)) {
+                                                            $is_selected = in_array($region_row['id'], $current_regions) ? 'selected' : '';
+                                                ?>
+                                                    <option value="<?php echo $region_row['id']; ?>" <?php echo $is_selected; ?>>
+                                                        <?php echo $region_row['region_name']; ?>
+                                                    </option>
+                                                <?php
+                                                        }
+                                                    } else {
+                                                        echo '<option disabled>No regions available</option>';
+                                                    }
+                                                ?>
+                                            </select>
+                                        </div>
+                                        <small class="text-muted" style="font-size: 11px;">Select multiple regions for this phraser</small>
+                                    </div>
+
+                                    <style>
+                                        .bootstrap-select .dropdown-menu li a {
+                                            padding: 6px 12px 6px 80px;
                                         }
                                     </style>
 									<input type="hidden" name="id" value="<?php echo $row['id'];?>">
