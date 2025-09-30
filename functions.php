@@ -6,7 +6,10 @@
         $values = array_map(array($connect, 'real_escape_string'), array_values($data) );
         
         $sql = "INSERT INTO $table (".implode(",",$fields).") VALUES ('".implode("','", $values )."')";
-        mysqli_query($connect, $sql);
+        if (mysqli_query($connect, $sql)) {
+            return mysqli_insert_id($connect);
+        }
+        return false;
     }
 
     function delete($table_name, $where_clause = '') {

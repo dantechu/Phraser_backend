@@ -41,10 +41,17 @@
                         </a>
                     </li>
                     
-                    <li class="<?php if (strpos($page, 'category') !== false) {echo 'active';} else { echo 'noactive'; }?>">
+                    <li class="<?php if (strpos($page, 'category') !== false && strpos($page, 'moods') === false) {echo 'active';} else { echo 'noactive'; }?>">
                         <a href="category.php">
                             <i class="material-icons">view_list</i>
                             <span><?php echo $menu_category; ?></span>
+                        </a>
+                    </li>
+
+                    <li class="<?php if (strpos($page, 'moods') !== false) {echo 'active';} else { echo 'noactive'; }?>">
+                        <a href="moods.php">
+                            <i class="material-icons">mood</i>
+                            <span><?php echo $menu_moods; ?></span>
                         </a>
                     </li>
 
@@ -76,7 +83,7 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li style="margin-top: 40px;">
                         <a href="logout.php">
                             <i class="material-icons">power_settings_new</i>
                             <span><?php echo $menu_logout; ?></span>

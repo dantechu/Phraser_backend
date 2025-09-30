@@ -43,7 +43,7 @@
 
         if(!empty($username) && !empty($password)) {
 
-            //$password = hash('sha256', $username.$password);
+            $password = hash('sha256', $username.$password);
             $sql_query = "SELECT * FROM tbl_admin WHERE username = ? AND password = ?";
 
             $stmt = $connect->stmt_init();

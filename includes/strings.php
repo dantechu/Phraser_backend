@@ -5,6 +5,7 @@
 	$menu_featured = "Manage Featured";
 	$menu_category = "Manage Category";
 		$menu_category_section = "Manage Category Section";
+	$menu_moods = "Manage Moods";
 	$menu_phraser = "Manage Phraser";
 	$menu_ads = "Manage Ads";
 	$menu_notification = "Notification";

@@ -9,7 +9,11 @@
 		$ID = clean("");
 	}
 
-	// delete data from menu table
+	// delete mood relationships first
+	$delete_moods = "DELETE FROM tbl_phraser_moods WHERE phraser_id = '$ID'";
+	$connect->query($delete_moods);
+	
+	// delete data from gallery table
 	$sql_delete = "DELETE FROM tbl_gallery WHERE id = '$ID'";
 	$delete = $connect->query($sql_delete);
 

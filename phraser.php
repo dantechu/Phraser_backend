@@ -39,6 +39,11 @@
         $count = count($arr);
         if ($count > 0) {
             foreach ($arr as $nid) {
+                // Delete mood relationships first
+                $delete_moods = "DELETE FROM tbl_phraser_moods WHERE phraser_id = $nid";
+                mysqli_query($connect, $delete_moods);
+                
+                // Then delete the phraser
                 $sql_delete = "DELETE FROM tbl_gallery WHERE id = $nid";
                 if (mysqli_query($connect, $sql_delete)) {
                     $_SESSION['msg'] = "$count Selected phrasers deleted";
@@ -73,6 +78,7 @@
 	$count = 0;
 	$i = ($page-1) * $rpp;
 	$no_urut = ($page-1) * $rpp;
+	
 
 ?>
 
@@ -141,6 +147,7 @@
 										</th>
 										<th>Category</th>
 										<th><div align="center">Quote</div></th>
+										<th>Moods</th>
 										<th><center>Action</center></th>
 									</tr>
 								</thead>
@@ -148,6 +155,14 @@
 								while(($count < $rpp) && ($i < $tcount)) {
 									mysqli_data_seek($result, $i);
 									$data = mysqli_fetch_array($result);
+									
+									// Get moods for this phraser
+									$moods_sql = "SELECT m.mood_name, m.mood_color 
+										FROM tbl_phraser_moods pm 
+										JOIN tbl_moods m ON pm.mood_id = m.id 
+										WHERE pm.phraser_id = ".$data['id']."
+										ORDER BY m.mood_name";
+									$moods_result = $connect->query($moods_sql);
 									?>
 									<tr>
 										<td width="1%">
@@ -159,6 +174,17 @@
 
 										<td><?php echo $data['category_name'];?></td>
 										<td><?php echo $data['quote'];?></td>
+										<td>
+											<?php 
+											if ($moods_result && mysqli_num_rows($moods_result) > 0) {
+												while ($mood = mysqli_fetch_array($moods_result)) {
+													echo '<span style="background-color: '.$mood['mood_color'].'; color: white; padding: 2px 6px; border-radius: 3px; margin-right: 4px; margin-bottom: 2px; display: inline-block; font-size: 11px;">'.$mood['mood_name'].'</span>';
+												}
+											} else {
+												echo '<span style="color: #999; font-style: italic;">No moods</span>';
+											}
+											?>
+										</td>
 										<td><center>
 
 											<a href="phraser-send.php?id=<?php echo $data['id'];?>">
