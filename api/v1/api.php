@@ -151,15 +151,69 @@ require_once("Rest.inc.php");
 			$page = isset($this->_request['page']) ? ((int)$this->_request['page']) : 1;
 
 			$id = $_GET['id'];
+			$region = isset($_GET['region']) ? $_GET['region'] : '';
 			// $order = $_GET['order'];
 			// $filter = $_GET['filter'];
 
 			$offset = ($page * $limit) - $limit;
-			$count_total = $this->get_count_result("SELECT COUNT(DISTINCT g.id) FROM tbl_gallery g WHERE g.cat_id = $id");
 
-			$query = "SELECT g.id AS 'phraser_id',g.tags, g.quote, c.cid AS 'category_id', c.category_name, c.category_section, c.category_type, g.last_update FROM tbl_category c, tbl_gallery g WHERE c.cid = $id AND c.cid = g.cat_id LIMIT $limit OFFSET $offset";
+			// Build region filter for count query
+			$region_filter = "";
+			if ($region !== '') {
+				$region_filter = " AND EXISTS (
+					SELECT 1 FROM tbl_phraser_regions pr
+					INNER JOIN tbl_regions r ON pr.region_id = r.id
+					WHERE pr.phraser_id = g.id AND r.region_name = '$region'
+				)";
+			}
 
-			$post = $this->get_list_result($query);
+			$count_total = $this->get_count_result("SELECT COUNT(DISTINCT g.id) FROM tbl_gallery g WHERE g.cat_id = $id" . $region_filter);
+
+			$query_posts = "
+				SELECT
+					g.id AS phraser_id,
+					g.tags,
+					g.quote,
+					c.cid AS category_id,
+					c.category_name,
+					c.category_section,
+					c.category_type,
+					g.last_update,
+					GROUP_CONCAT(DISTINCT m.mood_name SEPARATOR '||') AS moods,
+					GROUP_CONCAT(DISTINCT r.region_name SEPARATOR '||') AS regions
+				FROM tbl_category c
+				INNER JOIN tbl_gallery g ON c.cid = g.cat_id
+				LEFT JOIN tbl_phraser_moods pm ON g.id = pm.phraser_id
+				LEFT JOIN tbl_moods m ON pm.mood_id = m.id
+				LEFT JOIN tbl_phraser_regions pr ON g.id = pr.phraser_id
+				LEFT JOIN tbl_regions r ON pr.region_id = r.id
+				WHERE c.cid = $id" . $region_filter . "
+				GROUP BY g.id
+				LIMIT $limit OFFSET $offset
+			";
+
+			$posts = $this->get_list_result($query_posts);
+
+			// Convert moods and regions from concatenated strings to arrays
+			$post = array();
+			foreach ($posts as $item) {
+				// Convert moods string to array
+				if (!empty($item['moods'])) {
+					$item['moods'] = explode('||', $item['moods']);
+				} else {
+					$item['moods'] = array();
+				}
+
+				// Convert regions string to array
+				if (!empty($item['regions'])) {
+					$item['regions'] = explode('||', $item['regions']);
+				} else {
+					$item['regions'] = array();
+				}
+
+				$post[] = $item;
+			}
+
 			$count = count($post);
 			$respon = array(
 				'status' => 'ok', 'count' => $count, 'count_total' => $count_total, 'pages' => $page, 'posts' => $post
