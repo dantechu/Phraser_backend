@@ -11,9 +11,9 @@
 
 	if(isset($_POST['submit'])) {
 
-        $data = array(											 
+        $data = array(
 			'mood_name'  => clean($_POST['mood_name']),
-			'mood_color' => clean($_POST['mood_color'])
+			'mood_icon' => clean($_POST['mood_icon'])
 		);	
 
 		$hasil = update('tbl_moods', $data, "WHERE id = '$ID'");
@@ -67,8 +67,8 @@
 
                                     <div class="form-group form-float col-sm-6">
                                         <div class="form-line">
-                                            <div class="font-12">Mood Color</div>
-                                            <input value='<?php echo $row['mood_color']; ?>' type="color" class="form-control" name="mood_color" id="mood_color" required/>
+                                            <div class="font-12">Mood Icon (Emoji)</div>
+                                            <input value='<?php echo $row['mood_icon']; ?>' type="text" class="form-control" name="mood_icon" id="mood_icon" placeholder="e.g. 😊 😢 😡 💪" maxlength="10" required/>
                                         </div>
                                     </div>
 

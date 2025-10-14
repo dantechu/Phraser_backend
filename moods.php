@@ -81,7 +81,7 @@
 							<thead>
 								<tr>
 									<th>Mood Name</th>
-									<th>Color</th>
+									<th>Icon</th>
 									<th>Usage Count</th>
 									<th width="15%">Action</th>
 								</tr>
@@ -100,8 +100,8 @@
 								<tr>
 									<td><?php echo $data['mood_name'];?></td>
 									<td>
-										<span style="background-color: <?php echo $data['mood_color']; ?>; color: white; padding: 5px 10px; border-radius: 3px;">
-											<?php echo $data['mood_color']; ?>
+										<span style="font-size: 24px;">
+											<?php echo $data['mood_icon']; ?>
 										</span>
 									</td>
 									<td><?php echo $usage_count; ?> phrasers</td>

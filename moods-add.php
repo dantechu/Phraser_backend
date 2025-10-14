@@ -5,7 +5,7 @@
 
         $data = array(
             'mood_name'	 => clean($_POST['mood_name']),
-            'mood_color' => clean($_POST['mood_color'])
+            'mood_icon' => clean($_POST['mood_icon'])
         );
 
         $qry = insert('tbl_moods', $data);
@@ -57,8 +57,8 @@
 
 									<div class="form-group form-float col-sm-6">
 										<div class="form-line">
-											<div class="font-12">Mood Color</div>
-											<input type="color" class="form-control" name="mood_color" id="mood_color" value="#FFD700" required>
+											<div class="font-12">Mood Icon (Emoji)</div>
+											<input type="text" class="form-control" name="mood_icon" id="mood_icon" placeholder="e.g. 😊 😢 😡 💪" maxlength="10" required>
 										</div>
 									</div>
 
