@@ -331,7 +331,29 @@ require_once("Rest.inc.php");
 			$respon = array(
 				'status' => 'ok', 'settings' => $settings, 'ads' => $ads, 'ads_status' => $ads_status
 			);
-			$this->response($this->json($respon), 200);	
+			$this->response($this->json($respon), 200);
+		}
+
+		public function get_moods() {
+			if($this->get_request_method() != "GET") $this->response('',406);
+
+			$query = "SELECT
+				m.id AS mood_id,
+				m.mood_name AS mood_title,
+				m.mood_icon,
+				COUNT(DISTINCT pm.phraser_id) AS total_phrasers
+			FROM tbl_moods m
+			LEFT JOIN tbl_phraser_moods pm ON m.id = pm.mood_id
+			GROUP BY m.id
+			ORDER BY m.mood_name ASC";
+
+			$moods = $this->get_list_result($query);
+			$count = count($moods);
+
+			$respon = array(
+				'status' => 'ok', 'count' => $count, 'moods' => $moods
+			);
+			$this->response($this->json($respon), 200);
 		}
 
 		 /*
@@ -540,6 +562,8 @@ require_once("Rest.inc.php");
 		$api->get_ads();
 	} else if (isset($_GET['get_settings'])) {
 		$api->get_settings();
+	} else if (isset($_GET['get_moods'])) {
+		$api->get_moods();
 	} else {
 		$api->processApi();
 	}
