@@ -22,7 +22,7 @@ require_once("Rest.inc.php");
 		private function dbConnect() {
 			require_once ("../../includes/config.php");
 			$this->mysqli = new mysqli($host, $user, $pass, $database);
-			$this->mysqli->query('SET CHARACTER SET utf8');
+			$this->mysqli->set_charset('utf8mb4');
 		}
 
 		public function processApi() {
