@@ -162,9 +162,9 @@
 									$data = mysqli_fetch_array($result);
 									
 									// Get moods for this phraser
-									$moods_sql = "SELECT m.mood_name, m.mood_color 
-										FROM tbl_phraser_moods pm 
-										JOIN tbl_moods m ON pm.mood_id = m.id 
+									$moods_sql = "SELECT m.mood_name, m.mood_icon
+										FROM tbl_phraser_moods pm
+										JOIN tbl_moods m ON pm.mood_id = m.id
 										WHERE pm.phraser_id = ".$data['id']."
 										ORDER BY m.mood_name";
 									$moods_result = $connect->query($moods_sql);
@@ -188,10 +188,10 @@
 										<td><?php echo $data['category_name'];?></td>
 										<td><?php echo $data['quote'];?></td>
 										<td>
-											<?php 
+											<?php
 											if ($moods_result && mysqli_num_rows($moods_result) > 0) {
 												while ($mood = mysqli_fetch_array($moods_result)) {
-													echo '<span style="background-color: '.$mood['mood_color'].'; color: white; padding: 2px 6px; border-radius: 3px; margin-right: 4px; margin-bottom: 2px; display: inline-block; font-size: 11px;">'.$mood['mood_name'].'</span>';
+													echo '<span style="background-color: #6c757d; color: white; padding: 2px 6px; border-radius: 3px; margin-right: 4px; margin-bottom: 2px; display: inline-block; font-size: 11px;">'.$mood['mood_icon'].' '.$mood['mood_name'].'</span>';
 												}
 											} else {
 												echo '<span style="color: #999; font-style: italic;">No moods</span>';

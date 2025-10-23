@@ -118,8 +118,8 @@
                                                     if (mysqli_num_rows($moods_result) > 0) {
                                                         while ($mood_row = mysqli_fetch_array($moods_result)) {
                                                 ?>
-                                                    <option value="<?php echo $mood_row['id']; ?>" 
-                                                            data-content="<span class='mood-option' style='background-color: <?php echo $mood_row['mood_color']; ?>; color: white; padding: 3px 8px; border-radius: 12px; font-size: 11px; display: inline-block;'><?php echo $mood_row['mood_name']; ?></span>">
+                                                    <option value="<?php echo $mood_row['id']; ?>"
+                                                            data-content="<span class='mood-option' style='background-color: #6c757d; color: white; padding: 3px 8px; border-radius: 12px; font-size: 11px; display: inline-block;'><?php echo $mood_row['mood_icon']; ?> <?php echo $mood_row['mood_name']; ?></span>">
                                                         <?php echo $mood_row['mood_name']; ?>
                                                     </option>
                                                 <?php
